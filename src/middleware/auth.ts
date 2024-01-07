@@ -12,7 +12,7 @@ declare global {
 export const isAuthenticated = async (
   req: Request,
   res: Response,
-  next: NextFunction
+  next: NextFunction,
 ) => {
   const { token } = req.cookies;
 

@@ -1,9 +1,9 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 const ConnectToDB = async () => {
-    const MongoUri = 'mongodb://127.0.0.1:27017';
+    const MongoUri = "mongodb://127.0.0.1:27017";
     try {
         await mongoose.connect(MongoUri, {
-            dbName: 'Flamingo'
+            dbName: "Flamingo",
         });
         console.log("Database Connected");
     }
