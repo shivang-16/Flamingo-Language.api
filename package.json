@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
     "watch": "tsc -w",
     "dev": "nodemon dist/server.js"
